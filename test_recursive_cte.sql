@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE edges (
+CREATE TABLE edges (
     id1 INTEGER,
     id2 INTEGER
 );
