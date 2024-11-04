@@ -5,7 +5,7 @@ CREATE TABLE edges (
 
 -- loads a test table that contains three patients with different subgraph shapes
 -- patient 1 has a K3 clique [2,4,5] with a path [2,1,3]
--- patient 2 is a simple node pair (P2[])
+-- patient 2 is a simple node pair [6,7]
 -- patient 3 is a star network centred on [10]
 INSERT INTO edges VALUES
     (1, 2), -- patient 1
